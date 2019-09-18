@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: константин
+Build-Jdk: 12.0.2
+Implementation-Title: konst Maven Webapp
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: konst
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+
