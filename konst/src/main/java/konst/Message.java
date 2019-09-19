@@ -29,12 +29,14 @@ public Message(String text, String tag){
 		this.id = id;
 	}
 	public String getText() {
+    	if (text == null) text = "";
 		return text;
 	}
 	public void setText(String text) {
 		this.text = text;
 	}
 	public String getTag() {
+    	if (text == null) text = "";
 		return tag;
 	}
 	public void setTag(String tag) {

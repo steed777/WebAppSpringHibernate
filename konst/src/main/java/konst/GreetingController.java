@@ -31,7 +31,7 @@ public class GreetingController {
     }
     @PostMapping
     public String add(@RequestParam String text, @RequestParam String tag, Map<String, Object> model){
-       Message message = new Message();
+       Message message = new Message(text, tag);
 userRepository.save(message);
 
        Iterable<Message> messages = userRepository.findAll();
